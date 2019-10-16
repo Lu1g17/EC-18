@@ -1,35 +1,56 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
 android:layout_height="match_parent" >
 
     <TextView
         android:id="@+id/textTitolo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="330dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="687dp"
         android:text="EC-18"
-        android:textSize="25dp"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25dp" />
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="108dp"
-        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
         android:layout_marginLeft="290dp"
         android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="679dp"
         android:text="Login" />
 
     <EditText
         android:id="@+id/editText1"
-        android:layout_width="407dp"
-        android:layout_height="22dp"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="664dp"
         android:ems="10" />
 
     <TextView
@@ -39,9 +60,64 @@ android:layout_height="match_parent" >
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
 
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="159dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="159dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="640dp"
         android:text="In Primo Piano" />
+
+    <ImageView
+        android:id="@+id/imageViewsuperiore"
+        android:layout_width="392dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="462dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageViewcentralesinistra"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="280dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageViewcentraledestra"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="281dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageViewinferiore"
+        android:layout_width="392dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="102dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
 
 </RelativeLayout>
