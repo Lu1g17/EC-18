@@ -5,33 +5,43 @@ android:layout_width="match_parent"
 android:layout_height="match_parent" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textTitolo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="198dp"
-        android:text="Esempio di Relative Layout"
+        android:layout_marginEnd="330dp"
+        android:layout_marginTop="10dp"
+        android:text="EC-18"
+        android:textSize="25dp"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText1"
-        android:layout_alignBottom="@+id/editText1"
-        android:layout_marginLeft="3dp"
-        android:layout_marginBottom="-83dp"
-        android:layout_toRightOf="@+id/editText1"
-        android:text="Button" />
+        android:id="@+id/buttonLogin"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="10dp"
+        android:text="Login" />
 
     <EditText
         android:id="@+id/editText1"
+        android:layout_width="407dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="40dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textPrimopiano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="136dp"
-        android:ems="10" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="159dp"
+        android:text="In Primo Piano" />
 
 </RelativeLayout>
