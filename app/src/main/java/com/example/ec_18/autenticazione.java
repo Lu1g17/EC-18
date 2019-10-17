@@ -11,7 +11,7 @@ public class autenticazione extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.autenticazione);
+        setContentView(R.layout.autenticazione1);
 
 
     }

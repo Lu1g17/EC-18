@@ -11,7 +11,7 @@ public class primapagina extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.primapagina); //per dare la relazione tra classe java e layout
+        setContentView(R.layout.primapagina1); //per dare la relazione tra classe java e layout
 
         Button login = findViewById(R.id.buttonLogin);  //dichiaro una variabile di tipo bottone e gli assegno il bottone creato nel layout
 
@@ -22,7 +22,4 @@ public class primapagina extends AppCompatActivity {
             }
         });
     }
-
-
-
 }
